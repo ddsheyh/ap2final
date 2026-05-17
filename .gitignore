@@ -1,0 +1,30 @@
+# Binaries
+*.exe
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Docker volumes
+pgdata/
+mongodata/
+grafana-data/
+
+# Environment (contains secrets)
+.env
+
+# SSH keys
+*.pem
